@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font: bold 30px sans-serif;
+    margin-top: 15px;
+    border-bottom: 1px solid black;
+}
+
+h3 {
+    font:bold 20px sans-serif;
+    text-align: left;
+    margin-top: 10px;
+}
+
+h4 {
+    font: bold 15px sans-serif; 
+}
+
+p {
+    text-align: justify;
+    font: 15px arial;
+    margin-top: 10px;
+}
+
+header, nav, section, article, aside, footer {
+    display: block;
+}
+
+body {
+    background: #f5f6fa;
+}
+
+.agrupar {
+    border: 0px solid black;
+    width: 1360px;
+    margin: 0px auto;
+    background: white;
+}
+
+.cabecera {
+    background-color: #FFFBB9;
+    border: 1px solid;
+    padding: 20px;
+}
+
+.cabecera h1 {
+    text-align: left;
+}
+
+.menu {
+    background-color: #ccc;
+    padding: 5px 15px;
+    text-align: left;
+}
+
+.menu li {
+    list-style: none;
+    padding: 7px;
+    font: bold 15px sans-serif;
+    display: inline-block;
+}
+
+.seccion {
+    margin: 5px 15px;
+    width: 880px;
+    float: left;
+}
+
+article {
+    background-color: #fffbcc;
+    border: 0px solid #999;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+article, footer {
+   text-align: left;
+}
+
+.columna {
+    width: 420px;
+    float: left;
+    margin: 0px 0px;
+}
+
+blockquote h5 {
+    text-align: center;
+    font: bold 15px sans-serif;
+    padding: 5px 0px;
+    background-color: cadetblue;
+}
+
+.columna blockquote {
+    border: 1px solid black;
+    padding: 0px;
+    margin: 20px 5px;
+    background-color: #fffbcc;
+}
+
+#contactos {
+    border: none;
+}
+
+
+#contactos h2 {
+    text-align: left;
+}
+
+#contactos p {
+    font: bold 15px arial;
+    margin: 10px 10px;
+}
+
+.columna p {
+    font: bold 12px arial;
+    margin: 2px 5px;
+}
+
+.pie {
+    clear: both;
+    background-color: #FFFBB9;
+    padding-bottom: 20px;
+    margin: 0px 15px;
+}
+
+#derechos {
+    text-align: center;
+    font: bold 15px arial;
+    padding-top: 10px;
+}
+
+img {
+    width: 407.5px;
+    text-align: center;
+    padding: 0px 0px;
+}
